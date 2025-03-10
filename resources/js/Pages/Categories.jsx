@@ -2,10 +2,21 @@ import React from "react";
 
 // Importez vos images ici
 import windowImage from "./Photos/product/window-4.jpeg";
-import windowImage1 from "./Photos/product/window-5.jpeg";
-import doorImage from "./Photos/product/door-10.jpeg";
+import windowImage1 from "./Photos/product/window-8.jpeg";
+import windowImage2 from "./Photos/product/window-3.jpeg";
+import doorImage from "./Photos/product/door-3.jpeg";
+import doorImage2 from "./Photos/product/door-12.jpeg";
+import doorImage3 from "./Photos/product/door-4.jpeg";
+
 import kitchenImage from "./Photos/product/kitchen-1.jpeg";
+import kitchenImage2 from "./Photos/product/kitchen-2.jpeg";
+import kitchenImage3 from "./Photos/product/kitchen-4.jpeg";
+
 import facadeImage from "./Photos/product/fasade-1.jpeg";
+
+import facadeImage2 from "./Photos/product/window-7.jpeg";
+
+import facadeImage3 from "./Photos/product/window-2.jpeg";
 
 function Categories() {
   // Données des produits groupées par catégorie
@@ -25,6 +36,12 @@ function Categories() {
           image: windowImage1,
           features: ["Gain de place", "Facile à utiliser", "Étanchéité optimale"],
         },
+        {
+          title: "Fenêtres Coulissantes",
+          description: "Idéales pour les petits espaces.",
+          image: windowImage2,
+          features: ["Gain de place", "Facile à utiliser", "Étanchéité optimale"],
+        },
       ],
     },
     {
@@ -39,7 +56,13 @@ function Categories() {
         {
           title: "Portes Coulissantes",
           description: "Parfaites pour les espaces modernes.",
-          image: doorImage,
+          image: doorImage2,
+          features: ["Design minimaliste", "Fonctionnalité optimale", "Durabilité"],
+        },
+        {
+          title: "Portes Coulissantes",
+          description: "Parfaites pour les espaces modernes.",
+          image: doorImage3,
           features: ["Design minimaliste", "Fonctionnalité optimale", "Durabilité"],
         },
       ],
@@ -53,6 +76,18 @@ function Categories() {
           image: kitchenImage,
           features: ["Espace optimisé", "Matériaux de qualité", "Design personnalisé"],
         },
+        {
+          title: "Cuisines sur Mesure",
+          description: "Des cuisines fonctionnelles et modernes adaptées à vos besoins.",
+          image: kitchenImage2,
+          features: ["Espace optimisé", "Matériaux de qualité", "Design personnalisé"],
+        },
+        {
+          title: "Cuisines sur Mesure",
+          description: "Des cuisines fonctionnelles et modernes adaptées à vos besoins.",
+          image: kitchenImage3,
+          features: ["Espace optimisé", "Matériaux de qualité", "Design personnalisé"],
+        },
       ],
     },
     {
@@ -62,6 +97,18 @@ function Categories() {
           title: "Façades en Aluminium",
           description: "Des façades contemporaines pour une maison unique.",
           image: facadeImage,
+          features: ["Résistance aux intempéries", "Design moderne", "Entretien minimal"],
+        },
+        {
+          title: "Façades en Aluminium",
+          description: "Des façades contemporaines pour une maison unique.",
+          image: facadeImage2,
+          features: ["Résistance aux intempéries", "Design moderne", "Entretien minimal"],
+        },
+        {
+          title: "Façades en Aluminium",
+          description: "Des façades contemporaines pour une maison unique.",
+          image: facadeImage3,
           features: ["Résistance aux intempéries", "Design moderne", "Entretien minimal"],
         },
       ],
@@ -78,7 +125,7 @@ function Categories() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {category.products.map((product, idx) => (
                 <div key={idx} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                  <img src={product.image} alt={product.title} className="w-full h-53 object-cover rounded-t-lg" />
+                  <img src={product.image} alt={product.title} className="w-full h-auto object-cover rounded-t-lg" />
                   <h2 className="text-2xl font-bold text-sky-800 mt-4">{product.title}</h2>
                   <p className="text-gray-600 mt-2">{product.description}</p>
                   <ul className="mt-4 space-y-2">

@@ -1,97 +1,130 @@
-import React from "react";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
-import "swiper/css";
-import { Link } from "@inertiajs/react";
-
+import React, { useState } from "react";
+import { Link } from "@inertiajs/react"; // Importez Link depuis @inertiajs/react
 import Banner from "./Banner";
-import logo from "./Photos/logo.png"
+import logo from "./Photos/logo.png";
 import Worker from "./Photos/Worker.png";
 import Services from "./Services";
 import Footer from "./Footer";
-import Categories from "./Categories" ;
+import Categories from "./Categories";
+import ContactForm from "./ContactForm";
+
 function Home() {
+  // État pour afficher le menu déroulant
+  const [showDropdown, setShowDropdown] = useState(false);
+
+  // Fonction pour faire défiler jusqu'à une section
+  const scrollToSection = (id) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
-    <div className=" w-full bg-gradient-to-b from-blue-300 via-sky-600 to-sky-900">
-            {/* Navigation */}
-            <nav className="fixed w-full top-0 left-0 z-10 shadow-lg bg-white">
-  <div className="container mx-auto flex justify-between items-center p-4">
-    <img src={logo} alt="Company Logo" className="h-12 w-13" />
-    {/* Hamburger Menu for Mobile */}
-    <button className="md:hidden block text-gray-800 focus:outline-none">
-      <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
-      </svg>
-    </button>
-    {/* Navigation Links */}
-    <ul className="hidden md:flex space-x-8 md:text-xl text-lg font-semibold text-gray-800">
-      <li className="relative group">
-        <Link href="/Menu" className="hover:text-amber-500 transition-all ease-in-out duration-300">
-          Produits
-        </Link>
-        {/* Dropdown Menu */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 hidden mt-2 space-y-2 bg-white/95 backdrop-blur-sm shadow-lg rounded-lg group-hover:block p-4 min-w-[200px]">
-          <Link href="/category/windows" className="block text-xl text-gray-800 hover:text-amber-500 transition-all ease-in-out duration-300">Windows</Link>
-          <Link href="/category/doors" className="block text-xl text-gray-800 hover:text-amber-500 transition-all ease-in-out duration-300">Doors</Link>
-          <Link href="/category/facades" className="block text-xl text-gray-800 hover:text-amber-500 transition-all ease-in-out duration-300">Facades</Link>
-          {/* Add more categories if needed */}
+      <div className="w-full bg-gradient-to-b from-sky-500 to-blue-900">
+        {/* Navigation */}
+        <nav className="fixed w-full top-0 left-0 z-10 shadow-lg bg-white">
+          <div className="container mx-auto flex justify-between items-center p-4">
+            <img src={logo} alt="Company Logo" className="h-12 w-13" />
+
+            {/* Navigation Links */}
+            <ul className="flex space-x-8 md:text-xl text-lg font-semibold text-gray-800">
+              <li>
+                <button onClick={() => scrollToSection("home")} className="hover:text-amber-500 transition-all">
+                  Home
+                </button>
+              </li>
+
+              {/* Menu déroulant Produits */}
+              <li className="relative group">
+                <button
+                  onClick={() => setShowDropdown(!showDropdown)}
+                  className="hover:text-amber-500 transition-all"
+                >
+                  Produits ▼
+                </button>
+                {showDropdown && (
+                  <div className="absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-md z-20">
+                    <button
+                      onClick={() => { scrollToSection("windows"); setShowDropdown(false); }}
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-200 w-full text-left"
+                    >
+                      Windows
+                    </button>
+                    <Link
+                      href="/Cuisine" // Lien vers la route /Cuisine
+                      onClick={() => setShowDropdown(false)} // Fermer le dropdown
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-200 w-full text-left"
+                    >
+                      Cuisine
+                    </Link>
+                    <button
+                      onClick={() => { scrollToSection("doors"); setShowDropdown(false); }}
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-200 w-full text-left"
+                    >
+                      Doors
+                    </button>
+                    <button
+                      onClick={() => { scrollToSection("facades"); setShowDropdown(false); }}
+                      className="block px-4 py-2 text-gray-800 hover:bg-gray-200 w-full text-left"
+                    >
+                      Facades
+                    </button>
+                  </div>
+                )}
+              </li>
+
+              <li>
+                <button onClick={() => scrollToSection("about")} className="hover:text-amber-500 transition-all">
+                  About
+                </button>
+              </li>
+              <li>
+                <button onClick={() => scrollToSection("services")} className="hover:text-amber-500 transition-all">
+                  Services
+                </button>
+              </li>
+              <li>
+                <button onClick={() => scrollToSection("contact")} className="hover:text-amber-500 transition-all">
+                  Contact
+                </button>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        {/* Sections avec des IDs */}
+        <div id="home" className="relative w-full h-full p-5 flex items-center justify-center text-white text-center px-6">
+          <div className="max-w-2xl">
+            <h1 className="text-4xl md:text-5xl font-bold bg-yellow-300 bg-clip-text text-transparent">
+              Nous Construisons La Maison De Vos Rêves
+            </h1>
+            <p className="text-lg md:text-xl">
+              Découvrez nos services de haute qualité pour vos projets de construction et d'aluminium.
+            </p>
+            <button className="bg-yellow-300 md:text-2xl text-sky-700 px-12 py-3 m-5 rounded-lg hover:bg-black hover:text-white transition-colors duration-300">
+              Nos services
+            </button>
+          </div>
+          <img src={Worker} className="w-97 bottom-6 m-3 h-53" alt="Worker" />
         </div>
-      </li>
-      <li>
-        <Link href="/about" className="hover:text-amber-500 transition-all ease-in-out duration-300">
-          About
-        </Link>
-      </li>
-      <li>
-        <Link href="/services" className="hover:text-amber-500 transition-all ease-in-out duration-300">
-          Services
-        </Link>
-      </li>
-      <li>
-        <Link href="/Contact" className="hover:text-amber-500 transition-all ease-in-out duration-300">
-          Contact
-        </Link>
-      </li>
-      <li>
-        <Link href="/cart" className="hover:text-amber-500 transition-all ease-in-out duration-300">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-6 h-6">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l3 9h9l3-9h2M6 15h12m-7 4v-4" />
-          </svg>
-        </Link>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-
-      {/* Hero Section */}
-      <section className="relative w-full h-full p-5 flex items-center justify-center text-white text-center px-6">
-        <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold bg-yellow-300 bg-clip-text text-transparent">
-          Nous Construisons La Maison De Vos Rêves
-          </h1>
-          <p className="text-lg md:text-xl">
-            Découvrez nos services de haute qualité pour vos projets de construction et d'aluminium.
-          </p>
-          <button className="bg-yellow-300 md:text-2xl text-sky-700 px-12 py-3 m-5 rounded-lg hover:bg-black hover:text-white transition-colors duration-300">
-          Nos services 
-          </button>
+        <div id="about">
+          <Banner />
         </div>
-<img src={Worker} className=" w-97 bottom-6 m-3 h-53" alt="" />
-      
-      </section>
-     
 
-    </div>
-  
-    <br />
-   
-    <Banner></Banner>
-    <Categories></Categories>
-    <Services></Services>
-    <Footer></Footer>
+        <div id="categories">
+          <Categories />
+        </div>
+
+        <div id="services">
+          <Services />
+        </div>
+
+        <div id="contact">
+          <ContactForm />
+        </div>
+      </div>
+
+      <Footer />
     </>
   );
 }

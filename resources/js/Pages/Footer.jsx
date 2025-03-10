@@ -17,7 +17,7 @@ function Footer() {
         <div>
           <h2 className="text-xl font-bold mb-4">Liens utiles</h2>
           <ul className="text-gray-400 text-sm space-y-2">
-            <li><a href="#" className="hover:text-gray-200">Accueil</a></li>
+            <li><a href="/" className="hover:text-gray-200">Accueil</a></li>
             <li><a href="#" className="hover:text-gray-200">Nos Services</a></li>
             <li><a href="#" className="hover:text-gray-200">À Propos</a></li>
             <li><a href="#" className="hover:text-gray-200">Contact</a></li>
@@ -27,8 +27,8 @@ function Footer() {
         {/* Contact & Réseaux Sociaux */}
         <div>
           <h2 className="text-xl font-bold mb-4">Contact</h2>
-          <p className="text-gray-400 text-sm">Email: contact@emc-boost.com</p>
-          <p className="text-gray-400 text-sm">Téléphone: +212 600 00 00 00</p>
+          <p className="text-gray-400 text-sm">Email: emcboosst@gmail.com</p>
+          <p className="text-gray-400 text-sm">Téléphone: +212-661681866</p>
           <div className="flex space-x-4 mt-4">
             <a href="#" className="text-gray-400 hover:text-gray-200 text-xl">
               <FaFacebook />

@@ -38,9 +38,9 @@ function Cuisine() {
     <>
     <Navbar></Navbar>
     <section id="cuisine" className="py-16 px-6 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold  m-12 text-gray-800">Nos Modèles de  Fenetres </h2>
+      <h2 className="text-3xl font-bold  m-12 text-gray-800">Nos Modèles de  Fenêtre </h2>
       <p className="text-gray-600 max-w-2xl mx-auto mt-3">
-        Découvrez notre sélection de cuisines modernes, classiques et personnalisées adaptées à tous les espaces.
+        Découvrez notre sélection de fenêtre modernes, classiques et personnalisées adaptées à tous les espaces.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">

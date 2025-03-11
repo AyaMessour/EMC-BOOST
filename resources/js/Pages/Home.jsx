@@ -85,7 +85,7 @@ function Home() {
 
         {/* Sections */}
     
-        <div id="home" className="relative w-full bg-gradient-to-b from-sky-500 to-blue-900 p-5 p-5 flex flex-col md:flex-row items-center justify-center text-white text-center px-6">
+        <div id="home" className="relative w-full bg-gradient-to-b from-sky-500 to-blue-900 p-7 p-5 flex flex-col md:flex-row items-center justify-center text-white text-center px-6">
           <div className="max-w-2xl mb-8 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold bg-yellow-300 bg-clip-text p-5 m-7 text-transparent">
               Nous Construisons La Maison De Vos Rêves

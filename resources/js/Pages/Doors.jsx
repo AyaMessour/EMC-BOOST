@@ -31,32 +31,36 @@ import Navbar from "./Navbar";
 
 
 const products = [
-  { id: 1, name: "Cuisine Moderne Blanche", image:kitchenImage1, description: "Design épuré avec finitions en marbre." },
-  { id: 2, name: "Cuisine Rustique en Bois", image: kitchenImage2, description: "Un style chaleureux et authentique en bois massif." },
-  { id: 3, name: "Cuisine Minimaliste", image: kitchenImage3 , description: "Espaces optimisés et lignes modernes." },
-  { id: 4, name: "Cuisine Noire et Or", image: kitchenImage4, description: "Un design luxueux avec une touche dorée." },
-  { id: 5, name: "Cuisine Scandinave", image: kitchenImage5, description: "Inspirée du style nordique avec bois clair et blanc." },
-  { id: 6, name: "Cuisine en U avec îlot", image: kitchenImage6, description: "Idéale pour les grands espaces et les familles." },
-  { id: 7, name: "Cuisine en L", image: kitchenImage7, description: "Parfaite pour optimiser l’espace dans les coins." },
-  { id: 8, name: "Cuisine industrielle", image: kitchenImage8, description: "Mélange de métal, bois et béton pour un look moderne." },
-  { id: 9, name: "Cuisine Rustique en Bois", image: kitchenImage9, description: "Un style chaleureux et authentique en bois massif." },
-  { id: 10, name: "Cuisine Minimaliste", image: kitchenImage10 , description: "Espaces optimisés et lignes modernes." },
-  { id: 11, name: "Cuisine Noire et Or", image: kitchenImage11, description: "Un design luxueux avec une touche dorée." },
-  { id: 12, name: "Cuisine Scandinave", image: kitchenImage12, description: "Inspirée du style nordique avec bois clair et blanc." },
-  { id: 13, name: "Cuisine en U avec îlot", image: kitchenImage13, description: "Idéale pour les grands espaces et les familles." },
-  { id: 14, name: "Cuisine en L", image: kitchenImage14, description: "Parfaite pour optimiser l’espace dans les coins." },
-  { id: 15, name: "Cuisine industrielle", image: kitchenImage15, description: "Mélange de métal, bois et béton pour un look moderne." },
-  { id: 16, name: "Cuisine Rustique en Bois", image: kitchenImage16, description: "Un style chaleureux et authentique en bois massif." },
-  { id: 17, name: "Cuisine Minimaliste", image: kitchenImage17 , description: "Espaces optimisés et lignes modernes." },
-  { id: 18, name: "Cuisine Noire et Or", image: kitchenImage18, description: "Un design luxueux avec une touche dorée." },
-  { id: 19, name: "Cuisine Scandinave", image: kitchenImage19, description: "Inspirée du style nordique avec bois clair et blanc." },
-  { id: 20, name: "Cuisine en U avec îlot", image: kitchenImage20, description: "Idéale pour les grands espaces et les familles." },
-  { id: 21, name: "Cuisine en L", image: kitchenImage21, description: "Parfaite pour optimiser l’espace dans les coins." },
-  { id: 22, name: "Cuisine industrielle", image: kitchenImage22, description: "Mélange de métal, bois et béton pour un look moderne." },
-  { id: 23, name: "Cuisine Rustique en Bois", image: kitchenImage23, description: "Un style chaleureux et authentique en bois massif." },
-  { id: 24, name: "Cuisine Minimaliste", image: kitchenImage24 , description: "Espaces optimisés et lignes modernes." },
-  { id: 25, name: "Cuisine Noire et Or", image: kitchenImage25, description: "Un design luxueux avec une touche dorée." },
-  { id: 26, name: "Cuisine Scandinave", image: kitchenImage26, description: "Inspirée du style nordique avec bois clair et blanc." },
+  { id: 1, 
+     image:kitchenImage1, description: "Design épuré avec finitions en marbre." },
+  { id: 2,  image: kitchenImage2, description: "Un style chaleureux et authentique en bois massif." },
+  { id: 3, image: kitchenImage3 , description: "Espaces optimisés et lignes modernes." },
+  { id: 4, 
+ image: kitchenImage4, description: "Un design luxueux avec une touche dorée." },
+  { id: 5,  image: kitchenImage5, description: "Inspirée du style nordique avec bois clair et blanc." },
+  { id: 6,  image: kitchenImage6, description: "Idéale pour les grands espaces et les familles." },
+  { id: 7, image: kitchenImage7, description: "Parfaite pour optimiser l’espace dans les coins." },
+  { id: 8, image: kitchenImage8, description: "Mélange de métal, bois et béton pour un look moderne." },
+  { id: 9,  image: kitchenImage9, description: "Un style chaleureux et authentique en bois massif." },
+  { id: 10, image: kitchenImage10 , description: "Espaces optimisés et lignes modernes." },
+  { id: 11,  image: kitchenImage11, description: "Un design luxueux avec une touche dorée." },
+  { id: 12, 
+     image: kitchenImage12, description: "Inspirée du style nordique avec bois clair et blanc." },
+  { id: 13, image: kitchenImage13, description: "Idéale pour les grands espaces et les familles." },
+  { id: 14,  image: kitchenImage14, description: "Parfaite pour optimiser l’espace dans les coins." },
+  { id: 15,image: kitchenImage15, description: "Mélange de métal, bois et béton pour un look moderne." },
+  { id: 16, image: kitchenImage16, description: "Un style chaleureux et authentique en bois massif." },
+  { id: 17, image: kitchenImage17 , description: "Espaces optimisés et lignes modernes." },
+  { id: 18,  image: kitchenImage18, description: "Un design luxueux avec une touche dorée." },
+  { id: 19, 
+     image: kitchenImage19, description: "Inspirée du style nordique avec bois clair et blanc." },
+  { id: 20,  image: kitchenImage20, description: "Idéale pour les grands espaces et les familles." },
+  { id: 21,  image: kitchenImage21, description: "Parfaite pour optimiser l’espace dans les coins." },
+  { id: 22,  image: kitchenImage22, description: "Mélange de métal, bois et béton pour un look moderne." },
+  { id: 23,image: kitchenImage23, description: "Un style chaleureux et authentique en bois massif." },
+  { id: 24,  image: kitchenImage24 , description: "Espaces optimisés et lignes modernes." },
+  { id: 25,  image: kitchenImage25, description: "Un design luxueux avec une touche dorée." },
+  { id: 26,  image: kitchenImage26, description: "Inspirée du style nordique avec bois clair et blanc." },
 
 ];
 
@@ -66,9 +70,9 @@ function Cuisine() {
     <Navbar></Navbar>
     <section id="cuisine" className="py-16 px-6 bg-gray-100 text-center">
       
-      <h2 className="text-3xl font-bold  m-12 text-gray-800">Nos Modèles de Cuisines</h2>
+      <h2 className="text-3xl font-bold  m-12 text-gray-800">Nos Modèles de Portes</h2>
       <p className="text-gray-600 max-w-2xl mx-auto mt-3">
-        Découvrez notre sélection de cuisines modernes, classiques et personnalisées adaptées à tous les espaces.
+        Découvrez notre sélection des portes  modernes, classiques et personnalisées adaptées à tous les espaces.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">

@@ -10,4 +10,7 @@ export default defineConfig({
         }),
         react(),
     ],
+    build: {
+        outDir: 'dist', // Customize the output directory to your needs
+    },
 });

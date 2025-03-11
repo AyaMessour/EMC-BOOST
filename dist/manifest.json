@@ -1,0 +1,785 @@
+{
+  "_ApplicationLogo-62d621db.js": {
+    "file": "assets/ApplicationLogo-62d621db.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_AuthenticatedLayout-ba89e9e5.js": {
+    "file": "assets/AuthenticatedLayout-ba89e9e5.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_ApplicationLogo-62d621db.js",
+      "_transition-65cd407e.js"
+    ]
+  },
+  "_GuestLayout-76d55c33.js": {
+    "file": "assets/GuestLayout-76d55c33.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_ApplicationLogo-62d621db.js"
+    ]
+  },
+  "_InputLabel-f174cec8.js": {
+    "file": "assets/InputLabel-f174cec8.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_PrimaryButton-96a5f25a.js": {
+    "file": "assets/PrimaryButton-96a5f25a.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_TextInput-b1c2a424.js": {
+    "file": "assets/TextInput-b1c2a424.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_door-4-de0c2471.js": {
+    "assets": [
+      "assets/door-3-c430586a.jpeg",
+      "assets/door-12-2d84a628.jpeg",
+      "assets/door-4-546181c2.jpeg"
+    ],
+    "file": "assets/door-4-de0c2471.js"
+  },
+  "_index-d6089b16.js": {
+    "file": "assets/index-d6089b16.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_kitchen-4-31b88075.js": {
+    "assets": [
+      "assets/kitchen-1-20602ed9.jpeg",
+      "assets/kitchen-2-5a56b1cf.jpeg",
+      "assets/kitchen-4-0950a2a6.jpeg"
+    ],
+    "file": "assets/kitchen-4-31b88075.js"
+  },
+  "_logo-80bec457.js": {
+    "assets": [
+      "assets/logo-c123031a.png"
+    ],
+    "file": "assets/logo-80bec457.js"
+  },
+  "_transition-65cd407e.js": {
+    "file": "assets/transition-65cd407e.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ]
+  },
+  "_window-2-7ccf9cd8.js": {
+    "assets": [
+      "assets/window-4-c3500380.jpeg",
+      "assets/window-8-745a9695.jpeg",
+      "assets/window-3-40823ce1.jpeg",
+      "assets/window-7-610c3245.jpeg",
+      "assets/window-2-cc824465.jpeg"
+    ],
+    "file": "assets/window-2-7ccf9cd8.js"
+  },
+  "resources/js/Pages/Auth/ConfirmPassword.jsx": {
+    "file": "assets/ConfirmPassword-2c40411e.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-76d55c33.js",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_ApplicationLogo-62d621db.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/ConfirmPassword.jsx"
+  },
+  "resources/js/Pages/Auth/ForgotPassword.jsx": {
+    "file": "assets/ForgotPassword-f95710fa.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-76d55c33.js",
+      "_TextInput-b1c2a424.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_ApplicationLogo-62d621db.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/ForgotPassword.jsx"
+  },
+  "resources/js/Pages/Auth/Login.jsx": {
+    "file": "assets/Login-05c925a6.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-76d55c33.js",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_ApplicationLogo-62d621db.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/Login.jsx"
+  },
+  "resources/js/Pages/Auth/Register.jsx": {
+    "file": "assets/Register-ca336ece.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-76d55c33.js",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_ApplicationLogo-62d621db.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/Register.jsx"
+  },
+  "resources/js/Pages/Auth/ResetPassword.jsx": {
+    "file": "assets/ResetPassword-73b44b6e.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-76d55c33.js",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_ApplicationLogo-62d621db.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/ResetPassword.jsx"
+  },
+  "resources/js/Pages/Auth/VerifyEmail.jsx": {
+    "file": "assets/VerifyEmail-9d2d14e2.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_GuestLayout-76d55c33.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_ApplicationLogo-62d621db.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Auth/VerifyEmail.jsx"
+  },
+  "resources/js/Pages/Banner.css": {
+    "file": "assets/Banner-816446ca.css",
+    "src": "resources/js/Pages/Banner.css"
+  },
+  "resources/js/Pages/Banner.jsx": {
+    "assets": [
+      "assets/model-2-1866d3e5.jpg",
+      "assets/model-3-546cebb1.jpg",
+      "assets/model-4-4f27d424.jpg",
+      "assets/model-5-16fe2972.jpg"
+    ],
+    "css": [
+      "assets/Banner-816446ca.css"
+    ],
+    "file": "assets/Banner-b47f5e0c.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Banner.jsx"
+  },
+  "resources/js/Pages/Categories.jsx": {
+    "assets": [
+      "assets/fasade-1-bc99f2bc.jpeg"
+    ],
+    "file": "assets/Categories-d03acabf.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_window-2-7ccf9cd8.js",
+      "_door-4-de0c2471.js",
+      "_kitchen-4-31b88075.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Categories.jsx"
+  },
+  "resources/js/Pages/ContactForm.jsx": {
+    "file": "assets/ContactForm-ef8c62c8.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/ContactForm.jsx"
+  },
+  "resources/js/Pages/Cuisine.jsx": {
+    "assets": [
+      "assets/kitchen-3-75ede943.jpeg",
+      "assets/kitchen-5-96c8e9ea.jpeg",
+      "assets/kitchen-6-465fb4dc.jpeg",
+      "assets/kitchen-7-ef32cb5c.jpeg",
+      "assets/kitchen-8-32e437e8.jpg",
+      "assets/kitchen-9-97aff9d7.jpg",
+      "assets/kitchen-10-847b7b88.jpg",
+      "assets/kitchen-11-fd0ac71d.jpg",
+      "assets/kitchen-12-9e5a59da.jpg",
+      "assets/kitchen-13-19d2544f.jpg",
+      "assets/kitchen-14-4f954e4f.jpg",
+      "assets/kitchen-15-d36d25c7.jpg",
+      "assets/kitchen-16-ae5d2768.jpg",
+      "assets/kitchen-17-2656715b.jpg",
+      "assets/kitchen-18-3423df36.jpg",
+      "assets/kitchen-19-c93b2940.jpg",
+      "assets/kitchen-20-0d7c7e3b.jpg",
+      "assets/kitchen-21-e44cfaf2.jpg",
+      "assets/kitchen-22-cddcfdd8.jpg",
+      "assets/kitchen-23-87dfd0d2.jpg"
+    ],
+    "file": "assets/Cuisine-2cd41338.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_kitchen-4-31b88075.js",
+      "resources/js/Pages/Footer.jsx",
+      "resources/js/Pages/Navbar.jsx",
+      "_index-d6089b16.js",
+      "_logo-80bec457.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Cuisine.jsx"
+  },
+  "resources/js/Pages/Dashboard.jsx": {
+    "file": "assets/Dashboard-484fc3d3.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_AuthenticatedLayout-ba89e9e5.js",
+      "_ApplicationLogo-62d621db.js",
+      "_transition-65cd407e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Dashboard.jsx"
+  },
+  "resources/js/Pages/Doors.jsx": {
+    "assets": [
+      "assets/door-1-ba7e9892.jpeg",
+      "assets/door-2-27ef059a.jpeg",
+      "assets/door-5-6635a7ae.jpeg",
+      "assets/door-6-fea0ed7f.jpeg",
+      "assets/door-7-d9ce9819.jpeg",
+      "assets/door-8-a20c46d0.jpeg",
+      "assets/door-9-e227a60d.jpeg",
+      "assets/door-10-20d39117.jpeg",
+      "assets/door-11-ded5ed4d.jpeg",
+      "assets/door-13-0e63611c.jpeg",
+      "assets/door-14-666c7cd9.jpeg",
+      "assets/door-15-0c2cd392.jpg",
+      "assets/door-16-b89cb7f0.jpg",
+      "assets/door-17-264b2ea1.jpg",
+      "assets/door-18-f0ab0e24.jpg",
+      "assets/door-19-9279c00a.jpg",
+      "assets/door-20-b4f57d80.jpg",
+      "assets/door-21-2b8a1de4.jpg",
+      "assets/door-22-96ac260b.jpg",
+      "assets/door-23-223743aa.jpg",
+      "assets/door-24-dc328d29.jpg",
+      "assets/door-25-0f1d5892.jpg",
+      "assets/door-26-4ed421f5.jpg"
+    ],
+    "file": "assets/Doors-9953ddac.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_door-4-de0c2471.js",
+      "resources/js/Pages/Footer.jsx",
+      "resources/js/Pages/Navbar.jsx",
+      "_index-d6089b16.js",
+      "_logo-80bec457.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Doors.jsx"
+  },
+  "resources/js/Pages/Footer.jsx": {
+    "file": "assets/Footer-f5541a8a.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-d6089b16.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Footer.jsx"
+  },
+  "resources/js/Pages/Home.jsx": {
+    "assets": [
+      "assets/Worker-676c85b1.png"
+    ],
+    "file": "assets/Home-38b79346.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Banner.jsx",
+      "_logo-80bec457.js",
+      "resources/js/Pages/Services.jsx",
+      "resources/js/Pages/Footer.jsx",
+      "resources/js/Pages/Categories.jsx",
+      "resources/js/Pages/ContactForm.jsx",
+      "_index-d6089b16.js",
+      "_window-2-7ccf9cd8.js",
+      "_door-4-de0c2471.js",
+      "_kitchen-4-31b88075.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Home.jsx"
+  },
+  "resources/js/Pages/Navbar.jsx": {
+    "file": "assets/Navbar-5c0ccadf.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_logo-80bec457.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Navbar.jsx"
+  },
+  "resources/js/Pages/Photos/Worker.png": {
+    "file": "assets/Worker-676c85b1.png",
+    "src": "resources/js/Pages/Photos/Worker.png"
+  },
+  "resources/js/Pages/Photos/logo.png": {
+    "file": "assets/logo-c123031a.png",
+    "src": "resources/js/Pages/Photos/logo.png"
+  },
+  "resources/js/Pages/Photos/model-2.jpg": {
+    "file": "assets/model-2-1866d3e5.jpg",
+    "src": "resources/js/Pages/Photos/model-2.jpg"
+  },
+  "resources/js/Pages/Photos/model-3.jpg": {
+    "file": "assets/model-3-546cebb1.jpg",
+    "src": "resources/js/Pages/Photos/model-3.jpg"
+  },
+  "resources/js/Pages/Photos/model-4.jpg": {
+    "file": "assets/model-4-4f27d424.jpg",
+    "src": "resources/js/Pages/Photos/model-4.jpg"
+  },
+  "resources/js/Pages/Photos/model-5.jpg": {
+    "file": "assets/model-5-16fe2972.jpg",
+    "src": "resources/js/Pages/Photos/model-5.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-1.jpeg": {
+    "file": "assets/door-1-ba7e9892.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-1.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-10.jpeg": {
+    "file": "assets/door-10-20d39117.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-10.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-11.jpeg": {
+    "file": "assets/door-11-ded5ed4d.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-11.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-12.jpeg": {
+    "file": "assets/door-12-2d84a628.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-12.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-13.jpeg": {
+    "file": "assets/door-13-0e63611c.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-13.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-14.jpeg": {
+    "file": "assets/door-14-666c7cd9.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-14.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-15.jpg": {
+    "file": "assets/door-15-0c2cd392.jpg",
+    "src": "resources/js/Pages/Photos/product/door-15.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-16.jpg": {
+    "file": "assets/door-16-b89cb7f0.jpg",
+    "src": "resources/js/Pages/Photos/product/door-16.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-17.jpg": {
+    "file": "assets/door-17-264b2ea1.jpg",
+    "src": "resources/js/Pages/Photos/product/door-17.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-18.jpg": {
+    "file": "assets/door-18-f0ab0e24.jpg",
+    "src": "resources/js/Pages/Photos/product/door-18.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-19.jpg": {
+    "file": "assets/door-19-9279c00a.jpg",
+    "src": "resources/js/Pages/Photos/product/door-19.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-2.jpeg": {
+    "file": "assets/door-2-27ef059a.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-2.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-20.jpg": {
+    "file": "assets/door-20-b4f57d80.jpg",
+    "src": "resources/js/Pages/Photos/product/door-20.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-21.jpg": {
+    "file": "assets/door-21-2b8a1de4.jpg",
+    "src": "resources/js/Pages/Photos/product/door-21.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-22.jpg": {
+    "file": "assets/door-22-96ac260b.jpg",
+    "src": "resources/js/Pages/Photos/product/door-22.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-23.jpg": {
+    "file": "assets/door-23-223743aa.jpg",
+    "src": "resources/js/Pages/Photos/product/door-23.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-24.jpg": {
+    "file": "assets/door-24-dc328d29.jpg",
+    "src": "resources/js/Pages/Photos/product/door-24.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-25.jpg": {
+    "file": "assets/door-25-0f1d5892.jpg",
+    "src": "resources/js/Pages/Photos/product/door-25.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-26.jpg": {
+    "file": "assets/door-26-4ed421f5.jpg",
+    "src": "resources/js/Pages/Photos/product/door-26.jpg"
+  },
+  "resources/js/Pages/Photos/product/door-3.jpeg": {
+    "file": "assets/door-3-c430586a.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-3.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-4.jpeg": {
+    "file": "assets/door-4-546181c2.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-4.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-5.jpeg": {
+    "file": "assets/door-5-6635a7ae.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-5.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-6.jpeg": {
+    "file": "assets/door-6-fea0ed7f.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-6.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-7.jpeg": {
+    "file": "assets/door-7-d9ce9819.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-7.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-8.jpeg": {
+    "file": "assets/door-8-a20c46d0.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-8.jpeg"
+  },
+  "resources/js/Pages/Photos/product/door-9.jpeg": {
+    "file": "assets/door-9-e227a60d.jpeg",
+    "src": "resources/js/Pages/Photos/product/door-9.jpeg"
+  },
+  "resources/js/Pages/Photos/product/fasade-1.jpeg": {
+    "file": "assets/fasade-1-bc99f2bc.jpeg",
+    "src": "resources/js/Pages/Photos/product/fasade-1.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-1.jpeg": {
+    "file": "assets/kitchen-1-20602ed9.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-1.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-10.jpg": {
+    "file": "assets/kitchen-10-847b7b88.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-10.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-11.jpg": {
+    "file": "assets/kitchen-11-fd0ac71d.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-11.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-12.jpg": {
+    "file": "assets/kitchen-12-9e5a59da.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-12.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-13.jpg": {
+    "file": "assets/kitchen-13-19d2544f.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-13.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-14.jpg": {
+    "file": "assets/kitchen-14-4f954e4f.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-14.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-15.jpg": {
+    "file": "assets/kitchen-15-d36d25c7.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-15.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-16.jpg": {
+    "file": "assets/kitchen-16-ae5d2768.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-16.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-17.jpg": {
+    "file": "assets/kitchen-17-2656715b.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-17.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-18.jpg": {
+    "file": "assets/kitchen-18-3423df36.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-18.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-19.jpg": {
+    "file": "assets/kitchen-19-c93b2940.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-19.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-2.jpeg": {
+    "file": "assets/kitchen-2-5a56b1cf.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-2.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-20.jpg": {
+    "file": "assets/kitchen-20-0d7c7e3b.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-20.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-21.jpg": {
+    "file": "assets/kitchen-21-e44cfaf2.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-21.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-22.jpg": {
+    "file": "assets/kitchen-22-cddcfdd8.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-22.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-23.jpg": {
+    "file": "assets/kitchen-23-87dfd0d2.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-23.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-3.jpeg": {
+    "file": "assets/kitchen-3-75ede943.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-3.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-4.jpeg": {
+    "file": "assets/kitchen-4-0950a2a6.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-4.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-5.jpeg": {
+    "file": "assets/kitchen-5-96c8e9ea.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-5.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-6.jpeg": {
+    "file": "assets/kitchen-6-465fb4dc.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-6.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-7.jpeg": {
+    "file": "assets/kitchen-7-ef32cb5c.jpeg",
+    "src": "resources/js/Pages/Photos/product/kitchen-7.jpeg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-8.jpg": {
+    "file": "assets/kitchen-8-32e437e8.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-8.jpg"
+  },
+  "resources/js/Pages/Photos/product/kitchen-9.jpg": {
+    "file": "assets/kitchen-9-97aff9d7.jpg",
+    "src": "resources/js/Pages/Photos/product/kitchen-9.jpg"
+  },
+  "resources/js/Pages/Photos/product/window-1.jpeg": {
+    "file": "assets/window-1-99038825.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-1.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-10.jpg": {
+    "file": "assets/window-10-a8370b44.jpg",
+    "src": "resources/js/Pages/Photos/product/window-10.jpg"
+  },
+  "resources/js/Pages/Photos/product/window-11.jpg": {
+    "file": "assets/window-11-3fb1efc1.jpg",
+    "src": "resources/js/Pages/Photos/product/window-11.jpg"
+  },
+  "resources/js/Pages/Photos/product/window-12.jpg": {
+    "file": "assets/window-12-a7c49592.jpg",
+    "src": "resources/js/Pages/Photos/product/window-12.jpg"
+  },
+  "resources/js/Pages/Photos/product/window-13.jpg": {
+    "file": "assets/window-13-9d29786a.jpg",
+    "src": "resources/js/Pages/Photos/product/window-13.jpg"
+  },
+  "resources/js/Pages/Photos/product/window-2.jpeg": {
+    "file": "assets/window-2-cc824465.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-2.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-3.jpeg": {
+    "file": "assets/window-3-40823ce1.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-3.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-4.jpeg": {
+    "file": "assets/window-4-c3500380.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-4.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-5.jpg": {
+    "file": "assets/window-5-b06e6246.jpg",
+    "src": "resources/js/Pages/Photos/product/window-5.jpg"
+  },
+  "resources/js/Pages/Photos/product/window-6.jpeg": {
+    "file": "assets/window-6-728c5fae.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-6.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-7.jpeg": {
+    "file": "assets/window-7-610c3245.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-7.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-8.jpeg": {
+    "file": "assets/window-8-745a9695.jpeg",
+    "src": "resources/js/Pages/Photos/product/window-8.jpeg"
+  },
+  "resources/js/Pages/Photos/product/window-9.jpg": {
+    "file": "assets/window-9-181a0e3d.jpg",
+    "src": "resources/js/Pages/Photos/product/window-9.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-1.jpg": {
+    "file": "assets/sign-1-3f4bc4f6.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-1.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-2.jpg": {
+    "file": "assets/sign-2-dda0183b.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-2.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-3.jpg": {
+    "file": "assets/sign-3-b7a796e1.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-3.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-4.jpg": {
+    "file": "assets/sign-4-966872ca.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-4.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-5.jpg": {
+    "file": "assets/sign-5-a8fae551.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-5.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-6.jpg": {
+    "file": "assets/sign-6-8a21a6bd.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-6.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-7.jpg": {
+    "file": "assets/sign-7-b3af078d.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-7.jpg"
+  },
+  "resources/js/Pages/Photos/signs/sign-8.jpg": {
+    "file": "assets/sign-8-0efac429.jpg",
+    "src": "resources/js/Pages/Photos/signs/sign-8.jpg"
+  },
+  "resources/js/Pages/Profile/Edit.jsx": {
+    "file": "assets/Edit-dcf9637b.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_AuthenticatedLayout-ba89e9e5.js",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+      "_ApplicationLogo-62d621db.js",
+      "_transition-65cd407e.js",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Edit.jsx"
+  },
+  "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx": {
+    "file": "assets/DeleteUserForm-9e6bc1b1.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_transition-65cd407e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx"
+  },
+  "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx": {
+    "file": "assets/UpdatePasswordForm-1709a121.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_transition-65cd407e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx"
+  },
+  "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx": {
+    "file": "assets/UpdateProfileInformationForm-ba548a70.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_TextInput-b1c2a424.js",
+      "_InputLabel-f174cec8.js",
+      "_PrimaryButton-96a5f25a.js",
+      "_transition-65cd407e.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx"
+  },
+  "resources/js/Pages/Services.jsx": {
+    "file": "assets/Services-f4d567b4.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_index-d6089b16.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Services.jsx"
+  },
+  "resources/js/Pages/Signs.jsx": {
+    "assets": [
+      "assets/sign-1-3f4bc4f6.jpg",
+      "assets/sign-2-dda0183b.jpg",
+      "assets/sign-3-b7a796e1.jpg",
+      "assets/sign-4-966872ca.jpg",
+      "assets/sign-5-a8fae551.jpg",
+      "assets/sign-6-8a21a6bd.jpg",
+      "assets/sign-7-b3af078d.jpg",
+      "assets/sign-8-0efac429.jpg"
+    ],
+    "file": "assets/Signs-15e23421.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "resources/js/Pages/Footer.jsx",
+      "resources/js/Pages/Navbar.jsx",
+      "_index-d6089b16.js",
+      "_logo-80bec457.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Signs.jsx"
+  },
+  "resources/js/Pages/Welcome.jsx": {
+    "file": "assets/Welcome-8aa713d2.js",
+    "imports": [
+      "resources/js/app.jsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Welcome.jsx"
+  },
+  "resources/js/Pages/Windows.jsx": {
+    "assets": [
+      "assets/window-1-99038825.jpeg",
+      "assets/window-5-b06e6246.jpg",
+      "assets/window-6-728c5fae.jpeg",
+      "assets/window-12-a7c49592.jpg",
+      "assets/window-9-181a0e3d.jpg",
+      "assets/window-10-a8370b44.jpg",
+      "assets/window-11-3fb1efc1.jpg",
+      "assets/window-13-9d29786a.jpg"
+    ],
+    "file": "assets/Windows-9d5476bb.js",
+    "imports": [
+      "resources/js/app.jsx",
+      "_window-2-7ccf9cd8.js",
+      "resources/js/Pages/Footer.jsx",
+      "resources/js/Pages/Navbar.jsx",
+      "_index-d6089b16.js",
+      "_logo-80bec457.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "resources/js/Pages/Windows.jsx"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-0d795c3a.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.jsx": {
+    "css": [
+      "assets/app-0d795c3a.css"
+    ],
+    "dynamicImports": [
+      "resources/js/Pages/Auth/ConfirmPassword.jsx",
+      "resources/js/Pages/Auth/ForgotPassword.jsx",
+      "resources/js/Pages/Auth/Login.jsx",
+      "resources/js/Pages/Auth/Register.jsx",
+      "resources/js/Pages/Auth/ResetPassword.jsx",
+      "resources/js/Pages/Auth/VerifyEmail.jsx",
+      "resources/js/Pages/Banner.jsx",
+      "resources/js/Pages/Categories.jsx",
+      "resources/js/Pages/ContactForm.jsx",
+      "resources/js/Pages/Cuisine.jsx",
+      "resources/js/Pages/Dashboard.jsx",
+      "resources/js/Pages/Doors.jsx",
+      "resources/js/Pages/Footer.jsx",
+      "resources/js/Pages/Home.jsx",
+      "resources/js/Pages/Navbar.jsx",
+      "resources/js/Pages/Profile/Edit.jsx",
+      "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
+      "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
+      "resources/js/Pages/Services.jsx",
+      "resources/js/Pages/Signs.jsx",
+      "resources/js/Pages/Welcome.jsx",
+      "resources/js/Pages/Windows.jsx"
+    ],
+    "file": "assets/app-d495b094.js",
+    "isEntry": true,
+    "src": "resources/js/app.jsx"
+  }
+}

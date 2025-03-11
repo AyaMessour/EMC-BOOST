@@ -23,6 +23,8 @@ import kitchenImage21 from "./Photos/product/kitchen-21.jpg";
 import kitchenImage22 from "./Photos/product/kitchen-22.jpg";
 import kitchenImage23 from "./Photos/product/kitchen-23.jpg";
 import Footer from "./Footer";
+import { Link } from "@inertiajs/react";
+import Navbar from "./Navbar";
 
 const products = [
   { id: 1, name: "Cuisine Moderne Blanche", image:kitchenImage1, description: "Design épuré avec finitions en marbre." },
@@ -54,8 +56,10 @@ function Cuisine() {
   return (
     <>
     
+    <Navbar></Navbar>
     <section id="cuisine" className="py-16 px-6 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold text-gray-800">Nos Modèles de Cuisines</h2>
+      
+      <h2 className="text-3xl  m-12 font-bold text-gray-800">Nos Modèles de Cuisines</h2>
       <p className="text-gray-600 max-w-2xl mx-auto mt-3">
         Découvrez notre sélection de cuisines modernes, classiques et personnalisées adaptées à tous les espaces.
       </p>

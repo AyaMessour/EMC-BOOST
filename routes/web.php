@@ -40,4 +40,14 @@ Route::get('/Cuisine', function () {
     return Inertia::render('Cuisine');
 });
 
+
+Route::get('/Windows', function () {
+    return Inertia::render('Windows');
+});
+Route::get('/Signs', function () {
+    return Inertia::render('Signs');
+});
+Route::get('/Doors', function () {
+    return Inertia::render('Doors');
+});
 require __DIR__.'/auth.php';

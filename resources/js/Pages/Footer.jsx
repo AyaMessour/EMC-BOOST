@@ -26,20 +26,21 @@ function Footer() {
 
         {/* Contact & Réseaux Sociaux */}
         <div>
-          <h2 className="text-xl font-bold mb-4">Contact</h2>
-          <p className="text-gray-400 text-sm">Email: emcboosst@gmail.com</p>
-          <p className="text-gray-400 text-sm">Téléphone: +212-661681866</p>
-          <div className="flex space-x-4 mt-4">
-            <a href="#" className="text-gray-400 hover:text-gray-200 text-xl">
-              <FaFacebook />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-gray-200 text-xl">
-              <FaInstagram />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-gray-200 text-xl">
-              <FaLinkedin />
-            </a>
-          </div>
+      <h2 className="text-xl font-bold mb-4">Contact</h2>
+      <p className="text-gray-400 text-sm">Email: emcboosst@gmail.com</p>
+      <p className="text-gray-400 text-sm">Téléphone: +212-661681866</p>
+      <div className="flex space-x-4 mt-4">
+        <div>
+          <p>ce site est réalisé par aya messour</p>
+          <p>Email : ayamessour35@gmail.com</p>
+        </div>
+        <a
+          href="https://www.linkedin.com/in/aya-messour-45b933341"
+          className="text-gray-400 hover:text-gray-200 text-xl"
+        >
+          <FaLinkedin />
+        </a>
+      </div>
         </div>
       </div>
       <div className="text-center text-gray-500 text-sm mt-8">
